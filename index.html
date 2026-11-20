@@ -29,12 +29,6 @@ main{max-width:820px;margin:-26px auto 0;padding:0 14px 36px}
 .route{display:block;width:fit-content;max-width:100%;margin:0 auto 16px;padding:4px 16px;border:2px dashed rgba(255,255,255,.6);border-radius:8px;font-size:.82rem;letter-spacing:.12em;text-transform:uppercase;animation:rise .8s .2s both}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .card h2{color:#ffd45e}}
 .badge{display:inline-block;background:var(--red);color:#fff;border-radius:8px;padding:1px 10px;margin-right:8px;font-size:.9rem}
-.guide{border-color:var(--gold);background:linear-gradient(var(--card),var(--card)) padding-box}
-.guide ol{margin:8px 0 12px;padding-left:20px}
-.guide li{margin:4px 0}
-.rules{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:10px;margin-top:10px}
-.rule{background:var(--sky);border-left:5px solid var(--green);border-radius:10px;padding:8px 12px;font-size:.92rem}
-.rule b{color:var(--red)}
 .tip{color:var(--muted);font-size:.93rem;margin:0 0 10px}
 .q{border:2px solid var(--line);border-radius:16px;padding:14px;margin-top:14px;background:var(--bg);transition:.2s}
 .q.right{border-color:var(--ok);background:rgba(27,154,89,.08)}
@@ -73,7 +67,7 @@ button:active{transform:scale(.94)}
 .who{transition:transform .2s}.who:hover{transform:rotate(-2deg) scale(1.06)}
 .res.vis .emo{animation:bounce 1s ease-in-out infinite}
 .cf{position:fixed;top:-40px;z-index:50;pointer-events:none;animation:fall linear forwards}
-@media (max-width:600px){.card{padding:16px 12px;border-radius:16px}.hero{padding:28px 12px 48px}.sent{font-size:1rem}.hand{font-size:1rem}.prof .lbl{flex-basis:100%}.prof button{flex:1}.rules{grid-template-columns:1fr}main{padding:0 10px 30px}}
+@media (max-width:600px){.card{padding:16px 12px;border-radius:16px}.hero{padding:28px 12px 48px}.sent{font-size:1rem}.hand{font-size:1rem}.prof .lbl{flex-basis:100%}.prof button{flex:1}main{padding:0 10px 30px}}
 @media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}.rv{opacity:1;transform:none}}
 </style>
 </head>
@@ -86,22 +80,6 @@ button:active{transform:scale(.94)}
   <span class="who">✍️ Sidali Benayache</span>
 </div>
 <main>
-  <section class="card guide">
-    <h2>👩‍🏫 Teacher’s Guide: how to mark</h2>
-    <ol>
-      <li>Read the sentence and the answer written in <b style="color:var(--red)">red</b> on the notebook paper.</li>
-      <li>Read the <b>Teacher’s note</b> under the answer. It explains why the answer is right.</li>
-      <li>Press <b>✔ True</b> if the answer follows the rule, or <b>✘ False</b> if it does not.</li>
-      <li>When all 14 questions are marked, the final result and emoji appear automatically.</li>
-    </ol>
-    <div class="rules">
-      <div class="rule"><b>Action verbs</b> (watch, leave, start…): <b>did</b> + subject + base verb.</div>
-      <div class="rule"><b>Verb “to be”</b>: I / he / she / it → <b>was</b>.</div>
-      <div class="rule"><b>Verb “to be”</b>: you / we / they / plural nouns → <b>were</b>.</div>
-      <div class="rule">After <b>did</b>, never use a past form (✘ went, ✔ go).</div>
-    </div>
-  </section>
-
   <section class="card">
     <h2><span class="badge">1</span>Complete the questions</h2>
     <p class="tip">Write <b>did</b>, <b>was</b> or <b>were</b> in each gap.</p>
